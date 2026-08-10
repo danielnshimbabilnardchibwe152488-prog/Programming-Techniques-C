@@ -28,6 +28,21 @@ void main(){
     getch();
 }
 
+//program to swap 3 values
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int a,b,c,x;
+    printf("enter sum ");
+    scanf("%d%d%d",&a,&b,&c);
+    x=a;
+    a=b;
+    b=c;
+    c=x;
+    printf("after swapping a=%d b=%d c=%d",a,b,c);
+    getch();
+}
+
 //program to convert celsius to fahrenheit
 #include<stdio.h>
 #include<conio.h>
