@@ -14,7 +14,7 @@ void main(){
     scanf("%d",&a);
     printf("enter quantity ");
     scanf("%d",&q);
-    total=a-(a*q);
+    total=(a*q);
     if (dis>1000)
     {
         dis=dis-(dis*15/100);
